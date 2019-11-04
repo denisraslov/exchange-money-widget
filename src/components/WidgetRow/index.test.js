@@ -72,7 +72,7 @@ describe('WidgetRow component', () => {
     const formItemView = wrapper.find(Form.Item);
 
     expect(formItemView).toHaveLength(1);
-    expect(formItemView.props().help).toEqual('You have 100 $');
+    expect(formItemView.props().help).toEqual('You have $100');
   });
 
   it('renders error validateStatus on error', () => {
