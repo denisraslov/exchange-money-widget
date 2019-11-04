@@ -1,4 +1,4 @@
-Demo: https://exchange-money-widget-odhuzybvrm.now.sh
+Demo: https://exchange-money-widget-vfdaypnioq.now.sh
 
 ---
 
