@@ -29,7 +29,7 @@ function WidgetRow({
         <Text type="secondary">{isSourceCurrency ? 'From' : 'To'}</Text>
         <Form.Item
           validateStatus={isBalanceError ? 'error' : null}
-          help={`You have ${formatNumber(balance.toString())} ${SymbolByCurrency[currency]}`}
+          help={`You have ${SymbolByCurrency[currency]}${formatNumber(balance.toString())}`}
         >
           <Input.Group compact>
             <Select
